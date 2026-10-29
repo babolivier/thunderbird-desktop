@@ -27,7 +27,7 @@ const ignorePatterns = [
 
 module.exports = {
   plugins: [
-    "accept-typescript-types",
+    //"accept-typescript-types",
     "skip-anonymous-locals",
     "skip-private-members",
     "skip-type-casts",
