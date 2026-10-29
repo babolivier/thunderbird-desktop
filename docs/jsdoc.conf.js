@@ -33,7 +33,7 @@ module.exports = {
     "skip-type-casts",
     "convert-descriptions-to-rst",
   ].map(plugin =>
-    path.join(__dirname, "..", "..", "docs", "jsdoc-plugins", `${plugin}.mjs`)
+    path.join(__dirname, FIREFOX_LOC, "docs", "jsdoc-plugins", `${plugin}.mjs`)
   ),
   recurseDepth: 10,
   source: {
