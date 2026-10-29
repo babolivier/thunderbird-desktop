@@ -6,6 +6,9 @@
 
 const path = require("path");
 const fs = require("fs");
+const process = require("process");
+
+const FIREFOX_LOC = process.env.FIREFOX_CHECKOUT_LOC ?? "../..";
 
 function readFile(path) {
   return fs
