@@ -104,6 +104,7 @@ module.exports = {
       "../suite",
 
       "../node_modules",
+      "./node_modules",
 
       ...ignorePatterns,
     ],
